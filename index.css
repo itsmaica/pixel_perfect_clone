@@ -1,8 +1,105 @@
-/* h1 {
-    color: #ffc0cb;
-} */
-
 body {
     font-family: "Neue Plak", sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeedf2;
+    color: #6f7287;
+}
+
+button {
+    border-color: #6f7287;
+}
+
+#header {
+    border: solid red 1px;
+
+    display: flex;
+    justify-content: space-around;
+    /* align-content: center; */
+    align-items: center;
+
+    width: 100vw;
+    height: 15vh;
+}
+
+#header h1 {
+    color: #f05537;
+    font-size: 4em;
+}
+
+input {
+    height: 5vh;
+    width: 15vw;
+}
+
+
+/* Categories */
+#categories {
+    /* border: solid red 1px; */
+    width: 100vw;
+}
+
+#categories button {
+    width: 24vw;
+    height: 6vh;
+}
+
+#event-container {
+    /* border: solid red 1px; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+/* Footer */
+
+#footer-container {
+    /* border: solid red 1px; */
+
+    width: 100vw;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-container button {
+    position: relative;
+    top: 15%;
+}
+
+#footer-container div {
+    border: purple 1px solid;
+    background-color: #1e0a3c;
+
+
+    /* position: relative; */
+    /* top: 50%; */
+    /* bottom: 0; */
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+
+    height: 10vh;
+    width: 100vw;
+}
+
+#footer-container div p {
+    /* display: inline-block; */
+    /* color: green; */
+    /* position: absolute;
+    top: 50%;
+    right: 30px; */
+    color: #FFFFFF;
+    margin-right: 2em;
 
 }

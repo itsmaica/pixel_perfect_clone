@@ -5,13 +5,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EventSight</title>
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 
 <body>
-  <div>
-    <h1>EventSigh</h1>
+  <div id="header">
+    <h1>EventSight</h1>
     <!-- <div>Search Events</div> -->
     <input>
     <!-- <p>Create Event</p>
@@ -24,7 +24,7 @@
   </div>
 
   <div>
-    <div>
+    <div id="categories">
       <h3>Check out trending categories</h3>
       <button>Music</button>
       <button>Health</button>
@@ -33,34 +33,41 @@
       <h3>Events in New York</h3>
     </div>
 
-    <div>
-      <img />
-      <a>Link</a>
-      <p>October 31, 2023</p>
-      <p>$54.98</p>
+    <div id="event-container">
+
+      <div class="event-card">
+        <img />
+
+        <a>Disco New York Halloween</a>
+        <p>October 31, 2023</p>
+        <p>$54.98</p>
+      </div>
+
+      <div class="event-card">
+        <img />
+        <a>Tech Outdoor Networking Event</a>
+        <p>September 7, 2023</p>
+        <p>$10 Donation</p>
+      </div>
+
+      <div class="event-card">
+        <img />
+        <a>Online Dance Party</a>
+        <p>August 31, 2023</p>
+        <p>Free on Zoom!</p>
+      </div>
     </div>
 
-    <div>
-      <img />
-      <a>Link</a>
-      <p>October 31, 2023</p>
-      <p>$54.98</p>
-    </div>
-
-    <div>
-      <img />
-      <a>Link</a>
-      <p>October 31, 2023</p>
-      <p>$54.98</p>
-    </div>
   </div>
 
-  <div>
-    <p>FREE on Zoom!</p>
+
+  <div id="footer-container">
     <button>See More</button>
-    <div id="footer">
-      <p>2022 EventSight</p>
+
+    <div>
+      <p>@2022 EventSight</p>
     </div>
+    
   </div>
 </body>
 
