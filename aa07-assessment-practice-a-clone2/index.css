@@ -1,0 +1,42 @@
+/* h1{color: pink} */
+
+* {
+    font-family: "Neue Plak", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--app-background);
+}
+
+:root {
+    --app-background: #eeedf2;
+    --app-text: #6f7287;
+    --app-border: #6f7287;
+    --app-text-orange: #f05537;
+    --app-background-footer: #1e0a3c;
+    --app-text-white: #FFFFFF;
+
+}
+
+#header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#header {
+    color: var(--app-text-orange)
+}
+
+#header-search-container{
+    box-shadow: 2px 2px 5px var(--app-border);
+    padding: 10px 40px 10px 10px;
+}
+
+.search-input {
+    border: none;
+}
+
+.search-input:focus-within{
+    display: none;
+}
