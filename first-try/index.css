@@ -19,7 +19,7 @@ button {
 
     border: solid 1px #6f7287;
     /* border-color: #6f7287; */
-    box-shadow: 3.5px 5px 5px #a5a6ae;
+    box-shadow: 2px 5px 5px 5px #a5a6ae;
 }
 
 input {
@@ -169,6 +169,72 @@ input::placeholder {
 
 /* media queries */
 
-@media screen 700 width{
+/* @media screen and (min-width: 700px) and (max-width: 700px) { */
+@media screen and (max-width: 700px) {
+
+
+    /* h1 { color: green} */
+
+    #header {
+        border: solid red 1px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    #header input {
+        /* border: green solid 1px; */
+        width: 80%;
+
+    }
+
+    #header input::placeholder {
+        padding-left: 5em;
+    }
+
+    #header > div {
+        border: solid red 1px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        /* align-items: center; */
+        justify-content: flex-start;
+        flex-direction: column;
+
+    }
+
+    /* magnifying glass */
+    .fa-search{
+        padding-top: 15px;
+        padding-right: 600px;
+        /* display: block; */
+        /* position: relative; */
+        /* position: absolute;
+        /* width: 100%; */
+        color: green;
+        /* position: absolute;
+        left: 0;  */
+        /* z-index: 1; */
+        /* font-size: ; */
+
+        /* align-self: flex-start; */
+        /* align-self: flex-end; */
+        /* align-self: start; */
+        /* align-self: end; */
+        /* align-self: self-start; */
+        /* order: 0; */
+
+
+
+
+        /* padding-right: 100px; */
+
+    }
 
 }

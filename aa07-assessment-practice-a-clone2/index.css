@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     background-color: var(--app-background);
+    color: var(--app-text)
 }
 
 :root {
@@ -18,10 +19,12 @@
 }
 
 #header-container {
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    padding: 0 40px;
 }
 
 #header {
@@ -31,12 +34,27 @@
 #header-search-container{
     box-shadow: 2px 2px 5px var(--app-border);
     padding: 10px 40px 10px 10px;
+    /* background-color: white; */
 }
 
 .search-input {
     border: none;
 }
 
-.search-input:focus-within{
-    display: none;
+.search-input:focus{
+    outline: none;
+}
+
+#header-search-container, #header-search-container > * {
+    background-color: white;
+}
+
+#header-nav-container {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: var(--app-text-orange);
 }
