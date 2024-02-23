@@ -173,7 +173,7 @@ input::placeholder {
 @media screen and (max-width: 700px) {
 
 
-    /* h1 { color: green} */
+    h1 { color: green}
 
     #header {
         border: solid red 1px;
